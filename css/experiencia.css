@@ -1,0 +1,31 @@
+.experiencia {
+  display: grid;
+  max-width: 1200px;
+  margin: 0px auto;
+  padding: 40px 20px;
+  grid-template-columns: 1fr 2fr;
+  gap: 100px;
+  align-items: stretch;
+}
+
+.experiencia-resumo {
+  font-size: 1.5rem;
+  line-height: 1.33;
+  font-weight: normal;
+  align-content: start;
+  margin-bottom: 3.75rem;
+  max-width: 40ch;
+}
+
+.experiencia-resumo b {
+  color: #ffff;
+}
+
+.experiencia .subtitulo {
+  color: #d7d6d9;
+  line-height: 144px;
+  font-size: 8rem;
+  text-transform: uppercase;
+  word-break: break-all;
+  max-width: 4ch;
+}
